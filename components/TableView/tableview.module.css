@@ -1,0 +1,16 @@
+.tableView tr {
+  @apply border-gray-800;
+  border-bottom: 0.1px solid;
+}
+
+.tableView tr th, .tableView tr td {
+  @apply px-6 py-2 text-left;
+}
+
+.iconDelete {
+  filter: invert(21%) sepia(93%) saturate(7445%) hue-rotate(0deg) brightness(101%) contrast(119%);
+}
+
+.icon {
+  @apply py-4;
+}

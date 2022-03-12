@@ -1,0 +1,11 @@
+.inputBox{
+  @apply px-4 py-2 outline-none border border-gray-800 rounded text-sm;
+}
+
+.inputBox:focus {
+  @apply shadow-md border-blue-800;
+}
+
+.inputBox::placeholder{
+  @apply text-sm;
+}

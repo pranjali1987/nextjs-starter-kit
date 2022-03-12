@@ -10,7 +10,7 @@ describe("HomePage", () => {
   it("should render the heading", () => {
     render(<HomePage />);
 
-    const heading = screen.getByText(/Home/i);
+    const heading = screen.getByText(/Search/i);
 
     expect(heading).toBeInTheDocument();
   });
